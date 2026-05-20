@@ -7,12 +7,14 @@ interface BarChartProps {
   data: [string, number][];
   highlightFirst?: boolean;
   highlightLabels?: string[];
+  compact?: boolean;
 }
 
 export function BarChart({
   data,
   highlightFirst = false,
   highlightLabels,
+  compact = false,
 }: BarChartProps) {
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
@@ -34,23 +36,23 @@ export function BarChart({
         const pct = (value / maxVal) * 100;
 
         return (
-          <div key={label} className="flex items-center gap-3">
+          <div key={label} className="flex items-center gap-2">
             <span
-              className="font-body text-[14px] text-right shrink-0 w-[180px] sm:w-[220px] lg:w-[260px]"
+              className={`font-body text-[13px] text-right shrink-0 ${compact ? "w-auto max-w-[140px]" : "w-[180px] sm:w-[200px] lg:w-[240px]"}`}
               style={{ color: labelColor }}
             >
               {label}
             </span>
-            <div className="flex-1 flex items-center gap-2 min-w-0">
+            <div className="flex-1 flex items-center gap-1.5 min-w-0">
               <motion.div
-                className="h-7 rounded-[1px]"
-                style={{ backgroundColor: barColor }}
+                className={`${compact ? "h-5" : "h-7"} rounded-[1px]`}
+                style={{ backgroundColor: barColor, minWidth: value > 0 ? 4 : 0 }}
                 initial={{ width: 0 }}
                 animate={inView ? { width: `${pct}%` } : { width: 0 }}
                 transition={{ duration: 0.6, delay: i * 0.06, ease: "easeOut" }}
               />
               <motion.span
-                className="font-display font-extrabold text-[16px] shrink-0"
+                className={`font-display font-extrabold ${compact ? "text-[13px]" : "text-[16px]"} shrink-0`}
                 style={{ color: barColor }}
                 initial={{ opacity: 0 }}
                 animate={inView ? { opacity: 1 } : { opacity: 0 }}
