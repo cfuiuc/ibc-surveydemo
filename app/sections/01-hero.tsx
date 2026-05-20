@@ -22,7 +22,7 @@ export default function Hero() {
     <section
       ref={ref}
       className="relative min-h-screen flex flex-col justify-center overflow-hidden"
-      style={{ paddingTop: "12rem", paddingBottom: "8rem" }}
+      style={{ paddingTop: "8rem", paddingBottom: "4rem" }}
     >
       <div
         className="absolute inset-0 pointer-events-none"
@@ -58,12 +58,12 @@ export default function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="font-body text-il-storm-30 text-[clamp(1.125rem,2vw,1.375rem)] leading-relaxed max-w-[640px] mb-16"
+          className="font-body text-il-storm-30 text-[clamp(1.125rem,2vw,1.375rem)] leading-relaxed max-w-[640px] mb-10"
         >
           They already are. Mostly they like it. They have concerns.
         </motion.p>
 
-        <div className="flex flex-col sm:flex-row gap-12 sm:gap-16 mb-20">
+        <div className="flex flex-col sm:flex-row gap-10 sm:gap-14 mb-12">
           <StatCallout
             number={String(stats.n)}
             label="consultants surveyed"

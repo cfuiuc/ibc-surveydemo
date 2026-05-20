@@ -7,7 +7,7 @@ export default function QuotesValuable() {
   const quotes = loadQuotesSync("quotes_valuable.txt", respondents);
 
   return (
-    <section style={{ paddingTop: "6rem", paddingBottom: "4rem" }} className="px-6">
+    <section style={{ paddingTop: "5rem", paddingBottom: "2rem" }} className="px-6">
       <div className="mx-auto max-w-[1200px]">
         <QuoteWall quotes={quotes}>
           <div className="mb-12">

@@ -6,7 +6,7 @@ export default function Explore() {
   const respondents = loadRespondentsSync();
 
   return (
-    <section style={{ paddingTop: "6rem", paddingBottom: "4rem" }} className="px-6">
+    <section style={{ paddingTop: "5rem", paddingBottom: "3rem" }} className="px-6">
       <div className="mx-auto max-w-[1200px]">
         <div className="mb-12">
           <SectionHeader sub="Explore the data">

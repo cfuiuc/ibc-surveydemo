@@ -11,7 +11,7 @@ const uses = (Object.entries(stats.uses) as [string, number][]).filter(
 
 export default function Uses() {
   return (
-    <section style={{ paddingTop: "8rem", paddingBottom: "6rem" }} className="px-6">
+    <section style={{ paddingTop: "5rem", paddingBottom: "3rem" }} className="px-6">
       <div className="mx-auto max-w-[1200px]">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -29,7 +29,7 @@ export default function Uses() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="font-body text-il-storm-10 text-lg leading-relaxed max-w-[640px] mt-8 mb-14"
+          className="font-body text-il-storm-10 text-lg leading-relaxed max-w-[640px] mt-5 mb-10"
         >
           Mostly research-and-comprehension scaffolding, not {"“"}AI did my
           work for me.{"”"}

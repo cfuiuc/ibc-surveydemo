@@ -1,6 +1,6 @@
 export default function Editorial() {
   return (
-    <section style={{ paddingTop: "6rem", paddingBottom: "8rem" }} className="px-6">
+    <section style={{ paddingTop: "4rem", paddingBottom: "4rem" }} className="px-6">
       <div className="mx-auto max-w-[640px]">
         <div
           className="border border-il-storm-95 p-10"
