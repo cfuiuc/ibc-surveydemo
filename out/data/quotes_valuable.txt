@@ -1,0 +1,315 @@
+I think the most valuable way AI was used was to really understand the technical concepts that our project entailed. Additionally, I believe AI was also really saved us time, especially when searching for use-cases since Claude and Perplexity cite sources as well. AI was really helpful in making text concise particularly when coming up with slide headers.
+
+---
+
+AI has helped me find sufficient information, that has been useful to talk about and learn more about my specific workstream, and blockchain as a whole
+
+---
+
+It made conducting secondary research so much easier and faster because I could immediately find relevant articles that contained the information I needed.
+
+---
+
+Better in summarizing research and to condense the info from research docs to to slide information
+
+---
+
+To conduct research, it saved so much time especially in a research heavy project
+
+---
+
+I personally only used it to find sources that relate to the work streams, so I feel this was very valuable as it helped make the research process much faster and offer sources that I may have never found, which helped the client overall
+
+---
+
+AI was really helpful in brainstorming ideas especially when it came to research each week.
+
+---
+
+Rewriting text, I feel like I always write too much, so it was nice condensing it for slides. Also, finding sources when they weren't always readily available when you just looked up something general was very useful.
+
+---
+
+I think in terms of how to word certain things on slides was very helpful to me. I sometimes struggle to write concisely, so that helps.
+
+---
+
+I don't think I used AI for most of my work. Sometimes I'd ask AI to provide links to sources on particular topics (e.g. asking it to find pubmed articles), but that's about it.
+
+---
+
+Sometimes workstreams can be really wordy so the most valuable way to use AI in IBC is to break them down.
+
+---
+
+Summarizing the content in a concise manner
+
+---
+
+Making thoughts and ideas sound more professional.
+
+---
+
+I felt that rewording to bulletpoints/text to be more professional was nice, and also with some data analysis.
+
+---
+
+Helping to me to learn or familiarize myself with something extremely quickly
+
+---
+
+I was able to clarify workstreams and know where to start.
+
+---
+
+The most valuable way AI was used in IBC was helping me understand hard definitions and terms. It made confusing concepts easier to break down in simple words, which helped me better understand the project and apply the information to our work.
+
+---
+
+AI does a great job of taking a lot of different ideas and bringing them together for research.
+
+---
+
+In my opinion, AI has helped me with explaining to me that in consulting, I must limit the amount of research per work stream. Additionally, it produced a research Guide I can use in numerous ways, such as with marketing research, competitive analysis, data analysis, etc.
+
+---
+
+100% research. I, in general, only ever trust AI to compile my research as that is essentially just web scraping.
+
+---
+
+Just being able to understand workstreams and conduct research.
+
+---
+
+Secondary research is the best use case in order to quickly search available online sources that may be hard to find on google due to the large presence of SEO heavy commercialized sources on the first page.
+
+---
+
+breaking down workstreams into simpler steps, breaking down and helping me understans complex, often technical lingo, giving me ways to start research
+
+---
+
+The most valuable way AI was used in my opinion came with understanding the workstream and the industry our client was it. Our project was very technical, and getting clear answers from AI made me much more efficient and made the project more clear.
+
+---
+
+My project heavily relied on the use of AI. Personally, it helped me learn more about n8n and coded the n8n structures for me.
+
+---
+
+The most valuable way AI was used in IBC was for finding sources and pulling useful quotes or information from them more efficiently.
+
+---
+
+To make a set of question banking especially on interviews.
+
+---
+
+Made my bullet points stronger and helped me understand terms
+
+---
+
+Idea generation is the most valuable way AI is used because it gives me a starting point to work off of if I am stuck.
+
+---
+
+AI helped me better understand work streams, especially since I was new to IBC this semester and wasn't familiar with what they were. It helped me break down unknown industries and terminology, which made it easier for me to understand the purpose behind different tasks.
+
+---
+
+AI was valuable to summarize long pieces of text, or could sometimes help find credible sources.
+
+---
+
+I did not personally use AI heavily, but from what I observed, the most valuable way AI was used in IBC was to help consultants refine their work. It was especially useful for making slide language more concise, improving edits, and creating stronger slide titles that were clearer and more client-ready. AI helped turn longer or less polished ideas into cleaner wording that fit better on slides. Overall, I think AI was most valuable as an editing and refinement tool, rather than a replacement for original research, strategy, or team thinking.
+
+---
+
+The best way was to brainstorm ideas and understand the work streams.
+
+---
+
+For me it was really just synthesizing the research I would do and asking it to pick out the best pieces of information. I also would use it to make my writing sound more refined and professional.
+
+---
+
+AI became a really powerful tool for starting my research and directing me to the right places. It made finding potential sources very simple, cutting down on a lot of the time spent looking through databases and various websites and documents. 
+
+In addition, my entire workstream for over a month was building an AI agent with Claude, which taught me how powerful AI can be used for automation in the professional world, giving me a new perspective on AI.
+
+---
+
+It created the template for our market sizing model, and brought a bunch of information.
+
+---
+
+I used AI as a starting point in research and analysis.
+
+---
+
+Our whole project revolved around AI and so naturally our team became very proficient in the frameworks that our clients taught us. I think I've become much more intentional with how I use AI. We learned a framework called Think-Prompt-Check, that accelerated learning and value creation in our team.
+
+---
+
+It's only good for accomplishing time consuming, objective tasks. The most notable example of this for my use would be summarizing papers and asking for the most important parts for our project
+
+---
+
+AI was useful for larger-scale searches, for example finding potential contacts for interviews, which previously took a long time to do manually. Using AI meant I could manually find what I needed from a more targeted list of results given by AI.
+
+---
+
+The most valuable way AI was used was to guide more research, and understand difficult concepts.
+
+---
+
+I used it to understand workstream and proved a solid guidance and how to move about my research.
+
+---
+
+Helping give a starting point on how to approach the research, and condensing text on slides!
+
+---
+
+The most valuable way AI was used in IBC was definitely when understanding difficult work streams or trying to understand difficult technical concepts throughout our project.
+
+---
+
+Using to streamline certain research tasks saves a lot of time
+
+---
+
+To help break down my workstreams to make research easy
+
+---
+
+Well in this project, we turned ideas into prototypes with AI and iterated on it.
+
+---
+
+Providing me with ideas on how to start my portion of the project
+
+---
+
+Understanding general industry practices and brainstorming
+
+---
+
+I liked to use it each week to help me interpret what I should be doing for the workstreams and then having it point me where to go.
+
+---
+
+I believe AI helped a ton in secondary research, where I would ask it to generate me a list of links and sources that I can work through and point me in the right direction of the project. I would then ask Gemini to summarize large sums of text or find meaningful conclusions from specific links, which I then went back and manually verified for accuracy.
+
+---
+
+To help reword information like key takeaway points or the title of slides to make sure those important things are worded the best they could be
+
+---
+
+Being able to get sources and a broader understanding of the topic as a whole which allows for more depth in research
+
+---
+
+The most valuable use of AI in IBC was as a support tool for brainstorming, structuring ideas, and improving clarity in our work. It helped speed up early-stage thinking, especially when we were organizing research, refining slide content, and exploring different approaches to problem-solving. It acted as a useful starting point that we could then critically evaluate and build on as a team.
+
+---
+
+AI helped guide the direction of my work streams often times and this was important as it ultimately affected my entire slide design.
+
+---
+
+As I did not have a background in the subject, my use of AI greatly helped give me guidance and clarity in the use case. I commonly did not know how to word certain areas of my slides, or struggled to come up with what I would say when presenting a slide, and my use of AI was crucial for helping me. I would not have survived without it. If I were working on a use case that was more closely aligned with my background, I do not feel like it would have been as crucial as it was in my situation on the AbbVie BTS project.
+
+---
+
+The most valuable way AI was used in IBC was summarizing large amounts of data.
+
+---
+
+AI is really good at helping consultants understand the industry broadly and gain key background information
+
+---
+
+Understanding the industry was helpful and coming up with ways I can search for research materials.
+
+---
+
+AI was at the core of my project, and it really helped me understand the importance of utilizing it in the correct way to maximize benefits.
+
+---
+
+AI didn't replace research but it told me what to look for and why that'd be beneficial.
+
+---
+
+I usually use it when i try to summarize huge amounts of data or rewriting the text, nothing much
+
+---
+
+After compiling industry research, AI is a useful tool for summarization and for gaining better understanding of business terms that NCs may be unfamiliar with.
+
+---
+
+I believe the most valuable way AI was used in IBC was through understanding work streams and questions through a different lens/wording, as well as in rewording text to create more value for the client.
+
+---
+
+My project was very technically based, so using AI to help me understand the industry and products as a whole helped with having a higher-level understanding.
+
+---
+
+Understanding work streams and quickly being able to interpret different jargon and terms
+
+---
+
+Was able to condense large reading into key points
+
+---
+
+I think it was good at finding sources for secondary research though I think it's always important to double check the accuracy of the sources that AI gives
+
+---
+
+AI was useful to help with workstreams, first gaining an understand of what is expected and then how to frame the workstream with proper research to eventually turn into slide form.
+
+---
+
+The most valuable use of AI was helping teams move faster from initial research to clearer structure. It was especially useful for brainstorming, organizing messy information, refining slide wording, and pressure testing whether our recommendations were clear and client focused.
+
+---
+
+To condense research and to do research
+
+---
+
+It helped me make my slides less text heavy because it helped me understand what wasn't required to be on the actual slide and can be stated during presentations instead.
+
+---
+
+To summarize huge chunks of texts into small bullets.
+
+---
+
+To reframe my words in a more polished way, help find gaps in my research
+
+---
+
+It was helpful to understand the cybersecurity jargon that I didn't always understand.
+
+---
+
+AI helped me really break down what was being asked of me and also helped me brainstorm some different avenues that could help our client,
+
+---
+
+For research and finding sources
+
+---
+
+I thing AI was best used when summarizing notes. For me it gave me a clear cut understanding of what needs to be done and how to fix it.
+
+---
+
+Summarizing long research papers.
