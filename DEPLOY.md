@@ -1,45 +1,69 @@
-# Deploying to cPanel shared hosting
+# cPanel deployment guide
 
-## Live URL
+**Live URL:** https://magellioffice.web.illinois.edu/ibc/survey-results/
 
-https://magellioffice.web.illinois.edu/ibc/survey-results/
+## How it works
 
-## Build
+The repo contains both source code and a pre-built `out/` folder.
+Every time Claude Code (or you) edits the site, the workflow is:
+
+1. Edit source files
+2. Run `pnpm build` (generates `out/`)
+3. Commit everything (source + `out/`)
+4. Push to GitHub
+
+Then on cPanel, pull the update and the site is live — no build step
+required on the server.
+
+## Initial setup on cPanel (one time)
+
+Clone the repo somewhere accessible, e.g. your home directory:
 
 ```bash
-pnpm install
-pnpm build
+cd ~
+git clone https://github.com/cfuiuc/ibc-surveydemo.git
 ```
 
-This produces an `out/` folder containing a fully static site. The build is
-pre-configured with `basePath: '/ibc/survey-results'` so all asset paths
-resolve correctly under that subdirectory.
+Create the target directory and copy the static files in:
 
-## Upload to cPanel
-
-Upload the **contents** of `out/` (not the folder itself) into:
-
-```
-public_html/ibc/survey-results/
+```bash
+mkdir -p ~/public_html/ibc/survey-results
+cp -a ~/ibc-surveydemo/out/. ~/public_html/ibc/survey-results/
 ```
 
-So the structure on the server looks like:
+## Updating the site on cPanel
 
-```
-public_html/
-  ibc/
-    survey-results/
-      index.html
-      404.html
-      favicon.ico
-      _next/            # JS, CSS, fonts — upload the entire folder
-      data/             # stats.json, CSV, and quote text files
+```bash
+cd ~/ibc-surveydemo
+git pull
+cp -a out/. ~/public_html/ibc/survey-results/
 ```
 
-The `.txt` manifest files (`index.txt`, `__next.*.txt`) are Next.js build
-metadata. Uploading them is harmless but not required.
+That's it — two commands. No Node.js, no build tools, no configuration.
 
-## Notes
+## Alternative: manual upload
 
-- No server, Node.js, or runtime required — everything is pre-rendered HTML + JS.
-- If the subdirectory path changes, update `basePath` and `assetPrefix` in `next.config.ts` and rebuild.
+If you prefer not to use git on the server:
+
+1. Download the `out/` folder from GitHub
+2. Upload its **contents** (not the folder itself) into
+   `public_html/ibc/survey-results/` via cPanel File Manager or SFTP
+
+## What's in out/
+
+```
+out/
+  index.html          # the page
+  404.html            # error page
+  favicon.ico
+  _next/              # JS, CSS, fonts (entire folder required)
+  data/               # stats.json, CSV, quote text files
+```
+
+The `.txt` files are Next.js build metadata — harmless but not required.
+
+## Configuration
+
+The basePath and assetPrefix in `next.config.ts` are set to
+`/ibc/survey-results`. If the subdirectory ever changes, update both
+values and rebuild.
