@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/magellioffice/public_html/ibc/survey-results/
+    - /bin/cp -R out/* $DEPLOYPATH
