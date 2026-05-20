@@ -1,0 +1,80 @@
+{
+  "n": 94,
+  "position": {
+    "New Consultant": 60,
+    "Senior Consultant": 22,
+    "Experienced Consultant": 12
+  },
+  "level": {
+    "Freshman": 60,
+    "Sophomore": 22,
+    "Junior": 6,
+    "Master's": 4,
+    "PhD": 1,
+    "Senior": 1
+  },
+  "college": {
+    "Gies College of Business": 49,
+    "Grainger College of Engineering": 20,
+    "College of Liberal Arts and Sciences": 14,
+    "School of Information Sciences": 6,
+    "College of ACES": 4,
+    "College of Media": 1
+  },
+  "tools": {
+    "ChatGPT": 56,
+    "Claude": 49,
+    "Gemini": 27,
+    "Copilot": 15,
+    "Perplexity": 7,
+    "I don't use AI": 5
+  },
+  "uses": {
+    "Brainstorming or ideation": 54,
+    "Conducting research": 48,
+    "Understanding workstreams": 45,
+    "Summarizing notes": 30,
+    "Rewriting text": 27,
+    "Question Type": 8,
+    "I don't use AI": 4
+  },
+  "concerns": {
+    "Becoming over-reliant on AI": 45,
+    "Risk of sharing client/confidential data": 42,
+    "Concerns about accuracy": 41,
+    "Lack of standardized AI training": 23,
+    "I have no concerns about using AI": 22,
+    "Unclear when/how to use AI": 20,
+    "Lack of guidance from SM/PM/SC": 12
+  },
+  "likert": {
+    "AI helped me understand the client and industry better": {
+      "Strongly Disagree": 2,
+      "Disagree": 2,
+      "Neutral": 14,
+      "Agree": 40,
+      "Strongly Agree": 24
+    },
+    "AI helped me apply frameworks and analysis": {
+      "Strongly Disagree": 3,
+      "Disagree": 7,
+      "Neutral": 16,
+      "Agree": 34,
+      "Strongly Agree": 22
+    },
+    "AI made me more confident using it professionally": {
+      "Strongly Disagree": 3,
+      "Disagree": 4,
+      "Neutral": 19,
+      "Agree": 35,
+      "Strongly Agree": 21
+    },
+    "Overall, AI improved my project and consulting experience": {
+      "Strongly Disagree": 1,
+      "Disagree": 1,
+      "Neutral": 17,
+      "Agree": 40,
+      "Strongly Agree": 23
+    }
+  }
+}

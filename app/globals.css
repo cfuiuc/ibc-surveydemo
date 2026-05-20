@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --il-orange: #FF5F05;
+  --il-blue: #13294B;
+  --il-altgeld: #C84113;
+  --il-storm-10: #252525;
+  --il-storm-30: #707372;
+  --il-storm-50: #9C9A9D;
+  --il-storm-70: #C8C6C7;
+  --il-storm-95: #F4F4F4;
+  --il-industrial: #1D58A7;
+  --il-arches: #009FD4;
+  --il-patina: #007E8E;
+  --il-berry: #5C0E41;
+  --il-harvest: #FCB316;
+  --il-prairie: #006230;
+  --il-earth: #7D3E13;
+  --il-orange-gradient: linear-gradient(135deg, #FCB316 0%, #FF5F05 100%);
+  --il-blue-gradient: linear-gradient(135deg, #1D58A7 0%, #13294B 100%);
+  --background: #ffffff;
+  --foreground: var(--il-storm-10);
+}
+
+@theme inline {
+  --color-il-orange: var(--il-orange);
+  --color-il-blue: var(--il-blue);
+  --color-il-altgeld: var(--il-altgeld);
+  --color-il-storm-10: var(--il-storm-10);
+  --color-il-storm-30: var(--il-storm-30);
+  --color-il-storm-50: var(--il-storm-50);
+  --color-il-storm-70: var(--il-storm-70);
+  --color-il-storm-95: var(--il-storm-95);
+  --color-il-industrial: var(--il-industrial);
+  --color-il-arches: var(--il-arches);
+  --color-il-patina: var(--il-patina);
+  --color-il-berry: var(--il-berry);
+  --color-il-harvest: var(--il-harvest);
+  --color-il-prairie: var(--il-prairie);
+  --color-il-earth: var(--il-earth);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-display: var(--font-montserrat), sans-serif;
+  --font-body: var(--font-source-sans), sans-serif;
+  --font-quote: Georgia, "Times New Roman", serif;
+  --radius: 2px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+::selection {
+  background: var(--il-orange);
+  color: white;
+}
